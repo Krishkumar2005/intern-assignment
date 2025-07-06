@@ -16,12 +16,10 @@ function Form() {
 
         try {
 
-
             if (business_name.length === 0) {
                 setNameError("Business Name is Required *")
                 return;
             }
-
 
             if (location.length === 0) {
                 setLocationError("Business Location is Required *")
