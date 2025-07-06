@@ -65,7 +65,7 @@ export default function DashBoard() {
             }</span>
             </h1>
 
-            <button type='button' className=' bg-blue-500  text-white p-2 px-6 mt-8 rounded cursor-pointer outline-none flex items-center' onClick={handleChangeHeadline}>
+            <button type='button' className=' bg-blue-500  text-white p-2 px-6 mt-8 rounded cursor-pointer outline-none flex items-center justify-center' onClick={handleChangeHeadline}>
               {isLoading ? (
                 <>
                   <Loader2 className="mr-2 h-4
